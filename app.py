@@ -20,7 +20,7 @@ def resume():
 
 @app.route('/download_resume')
 def download_resume():
-    return send_file("Kamaljit_Kaur.pdf", as_attachment=True)
+    return send_file("Kamaljit_Kaur_Resume.pdf", as_attachment=True)
 
 @app.route('/contact')
 def contact():
